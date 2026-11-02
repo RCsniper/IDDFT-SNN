@@ -1,0 +1,7 @@
+# Install torch and torchvision separately for the CUDA version on your system.
+biotorch==0.0.16
+snntorch==0.9.4
+numpy
+matplotlib
+Pillow
+tqdm
