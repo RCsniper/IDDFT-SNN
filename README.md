@@ -249,7 +249,7 @@ The current dataset-specific training scripts write console logs through `run.sh
 
 ## Memory-Efficient BP-IDDFT
 
-`Efficient_train.py` compares full BPTT-SG with a memory-efficient BP-IDDFT implementation on CIFAR-10 and CIFAR-100:
+`Efficient_train.py` compares BPTT-SG with a memory-efficient BP-IDDFT implementation on CIFAR-10 and CIFAR-100:
 
 ```bash
 python Efficient_train.py \
