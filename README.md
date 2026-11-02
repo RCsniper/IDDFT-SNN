@@ -27,13 +27,12 @@ Yasuo Kuniyoshi<sup>1</sup> · Kohei Nakajima<sup>1</sup>
 
 Input-Driven Derivative-Free Training (**IDDFT**) trains deep spiking neural networks without constructing local update signals from membrane-potential-based surrogate gradients (SG). Instead, it applies a relaxed nonlinearity directly to the current input drive:
 
-$$
+```math
 \Delta W_{\mathrm{IDDFT}}^{l-1}
-=
--\eta\sum_{t=1}^{T}
+=-\eta\sum_{t=1}^{T}
 \left[e_t^l\odot\phi(I_t^l)\right]\,
 \left(s_t^{l-1}\right)^{\top}.
-$$
+```
 
 This formulation preserves the original forward neuronal dynamics while removing temporal error propagation through historical membrane states. IDDFT can be combined with standard backpropagation (**BP-IDDFT**) or uniform sign-concordant feedback (**uSF-IDDFT**).
 
