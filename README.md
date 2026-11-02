@@ -94,7 +94,7 @@ conda activate iddft
 pip install -r requirements.txt
 ```
 
-BioTorch is installed as an external dependency rather than being copied into this repository. To install the core dependencies directly:
+BioTorch is installed as an external dependency. To install the core dependencies directly:
 
 ```bash
 pip install biotorch==0.0.16 snntorch==0.9.4 numpy matplotlib pillow tqdm
