@@ -55,15 +55,6 @@ This formulation preserves the original forward neuronal dynamics while removing
 
 The benchmark results use uSF-IDDFT with standard LIF neurons and cross-entropy loss. Each result is reported over five independent trials.
 
-### Training-memory comparison
-
-| Dataset | Method | Peak CUDA memory | Accuracy |
-|:--|:--|--:|--:|
-| CIFAR-10 | BPTT-SG | 10.30 GiB | 92.42% |
-| CIFAR-10 | BP-IDDFT | **3.39 GiB** | **93.47%** |
-| CIFAR-100 | BPTT-SG | 10.30 GiB | 60.62% |
-| CIFAR-100 | BP-IDDFT | **3.39 GiB** | **64.15%** |
-
 ## Repository Structure
 
 ```text
