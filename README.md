@@ -321,7 +321,7 @@ If this work is useful for your research, please cite:
 
 ## Acknowledgements
 
-The SNN implementations use [PyTorch](https://pytorch.org/) and [snnTorch](https://snntorch.readthedocs.io/). The uSF components use [BioTorch](https://github.com/jsalbert/biotorch), which is distributed separately under the Apache-2.0 License.
+The SNN implementations use [PyTorch](https://pytorch.org/) and [snnTorch](https://snntorch.readthedocs.io/). The uSF components use [BioTorch](https://github.com/jsalbert/biotorch), which help us to quickly implement our codes.
 
 ## License
 
